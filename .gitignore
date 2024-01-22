@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+env/
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Django-specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Ignore SQLite database files
+db.sqlite3
+
+# Ignore environment-specific settings
+.env
